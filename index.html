@@ -262,25 +262,31 @@ reasoning benchmarks.
     max-width: 100%;
   }
 
-  .carousel .slider {
+  .results-carousel .slider {
     width: 100% !important;
     overflow: hidden !important;
+    position: relative !important;
   }
 
-  .carousel .slider-container {
+  .results-carousel .slider-container {
     display: flex !important;
     flex-wrap: nowrap !important;
     width: 100% !important;
+    transition: none !important;
   }
 
-  .carousel .slider-item {
+  .results-carousel .slider-item {
     flex: 0 0 100% !important;
-    max-width: 100% !important;
+    min-width: 100% !important;
     width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
 
-  .carousel .slider-item > .item {
+  .results-carousel .slider-item > .item {
     width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   /* Ensure images scale proportionally and show full height */
