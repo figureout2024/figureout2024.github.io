@@ -251,32 +251,10 @@ reasoning benchmarks.
 <style>
   /* Center the carousel and images */
   .carousel {
-    display: block;
-  }
-
-  .results-carousel .slider {
-    width: 100% !important;
-    overflow: hidden !important;
-    position: relative !important;
-  }
-
-  .results-carousel .slider-container {
-    display: flex !important;
-    flex-wrap: nowrap !important;
-  }
-
-  .results-carousel .slider-item {
-    flex: 0 0 100% !important;
-    min-width: 100% !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    box-sizing: border-box !important;
-  }
-
-  .results-carousel .slider-item > .item {
-    width: 100% !important;
-    max-width: 100% !important;
-    box-sizing: border-box !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   /* Ensure images scale proportionally and show full height */
@@ -284,7 +262,7 @@ reasoning benchmarks.
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 510px;
+    max-height: 510px;
     overflow: hidden;
   }
 
