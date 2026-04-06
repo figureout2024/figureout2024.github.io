@@ -90,7 +90,7 @@
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/2503.09567" target="_blank"
+                        <a href="####" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -112,7 +112,7 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/2503.09567" target="_blank"
+                  <a href="###" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -262,14 +262,15 @@ reasoning benchmarks.
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 510px; /* Adjusted to double the height (from 300px to 600px) */
+    max-height: 510px;
     overflow: hidden;
   }
 
   .image-container img {
-    width: auto;
-    height: 100%;
-    object-fit: cover; /* Ensures the image covers the container without distortion */
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Show the full image without cropping */
+    display: block;
   }
 
   /* Center the subtitle */
